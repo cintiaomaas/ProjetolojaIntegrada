@@ -24,26 +24,29 @@ Para executar os teste de ui execute o comando `npx cypress run` para executar e
 execute o comando `npx cypress open` para executar em modo interativo numa janela de visualização do ambiente de trabalho..
 
 # Estrutura dos teste
+```
+### Estrutura do projeto
+
 cypress/
-|-- e2e/
-|   |-- ui/
-|       |-- pages/
-|           |-- carrinhoDeComprarPages.js
-|           |-- cuponsDescontoPages.js
-|           |-- produtosPages.js
-|       |-- step_definitions/
-|           |-- cuponsDesconto.cy.js
-|-- fixtures/
-|   |-- example.json
-|-- screenshots/
-|-- support/
-|   |-- commands.js
-|   |-- e2e.js
-|-- cypress.config.js
-|-- package-lock.json
-|-- package.json
-|-- README.md
-   
+├── e2e/
+│   ├── ui/
+│   │   ├── pages/
+│   │   │   ├── carrinhoDeComprarPages.js
+│   │   │   ├── cuponsDescontoPages.js
+│   │   │   ├── produtosPages.js
+│   │   ├── step_definitions/
+│   │       ├── cuponsDesconto.cy.js
+├── fixtures/
+│   ├── example.json
+├── screenshots/
+├── support/
+│   ├── commands.js
+│   ├── e2e.js
+├── cypress.config.js
+├── package-lock.json
+├── package.json
+└── README.md
+```   
 ___
 
 Esse projeto foi desenvolvido por [Cintia] (https://github.com/cintiaomaas).
