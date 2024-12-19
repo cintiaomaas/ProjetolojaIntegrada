@@ -26,24 +26,24 @@ execute o comando `npx cypress open` para executar em modo interativo numa janel
 # Estrutura dos teste
 cypress/
 |-- e2e/
-    |-- ui/
-        |-- pages/
-            |-- carrinhoDeComprarPages.js
-            |-- cuponsDescontoPages.js
-            |-- produtosPages.js
-        |-- step_definitions/
-            |-- cuponsDesconto.cy.js
-    |-- fixtures
-        |-- example.json
-    |-- screenshots
-    |-- support
-        |-- commands.js
-        |-- e2e.js
+|   |-- ui/
+|       |-- pages/
+|           |-- carrinhoDeComprarPages.js
+|           |-- cuponsDescontoPages.js
+|           |-- produtosPages.js
+|       |-- step_definitions/
+|           |-- cuponsDesconto.cy.js
+|-- fixtures/
+|   |-- example.json
+|-- screenshots/
+|-- support/
+|   |-- commands.js
+|   |-- e2e.js
 |-- cypress.config.js
 |-- package-lock.json
 |-- package.json
 |-- README.md
-    
+   
 ___
 
 Esse projeto foi desenvolvido por [Cintia] (https://github.com/cintiaomaas).
